@@ -7,11 +7,19 @@ This application is fully implemented in Kotlin using Android Studio.
 
 # Requirement
 
-Minimum Android version: API Level 24 (Android 7)
-Maximum Android version: API Level 32 (Android 12)
-Hardware requirements:   Gyroscope is required
-					               No requirement on Internet connection
-					               No requirement on resolution, but ideal width at least 1080px 
+Minimum Android version: 
+
+	API Level 24 (Android 7)
+
+Maximum Android version: 
+
+	API Level 32 (Android 12)
+
+Hardware requirements: 
+
+	Gyroscope is required
+	No requirement on Internet connection
+	No requirement on resolution, but ideal width at least 1080px 
                          
 # Reference
 
