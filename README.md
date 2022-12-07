@@ -29,12 +29,12 @@ Reference on coding:
 	https://github.com/lloydtorres/space-invaders-recreated
 	https://github.com/EliteIntegrity/Kotlin-Invaders
 	https://github.com/KODDevYouTube/VermiculiGame
-	[Sensor Access and Control – Gyroscope](https://youtu.be/FDEei9RNdrE)
-	[TextView Animation – Stack Overflow](https://stackoverflow.com/questions/23695626/making-textview-loop-a-growing-and-shrinking-animation)
-	[DialogFragment – Stack Overflow](https://stackoverflow.com/questions/12478520/how-to-set-dialogfragments-width-and-height)
+	https://youtu.be/FDEei9RNdrE
+	https://stackoverflow.com/questions/23695626/making-textview-loop-a-growing-and-shrinking-animation
+	https://stackoverflow.com/questions/12478520/how-to-set-dialogfragments-width-and-height
 
 Reference on multimedia:
 
 	https://www.classicgaming.cc/classics/space-invaders/icons-and-fonts
 	http://www.classicgaming.cc/classics/space-invaders/sounds
-	[Space Invaders Main Theme - Space Invaders](https://youtu.be/k9oyDTR0EwQ)
+	https://youtu.be/k9oyDTR0EwQ
