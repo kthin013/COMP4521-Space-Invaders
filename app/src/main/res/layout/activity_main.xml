@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/playerShipImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/playership"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/invadersImage0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/invader2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/invadersImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/invader1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/invadersImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/invader1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/invadersImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/invader2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/invadersImage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/invader2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/starImage0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/star"
+        android:alpha="0.7"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/starImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/star"
+        android:alpha="0.7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sapce_invader"
+        android:textSize="40sp"
+        android:fontFamily="@font/arcadeclassic"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/highestScoreGroup" />
+
+    <LinearLayout
+        android:id="@+id/highestScoreGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10sp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/titleText"
+        app:layout_constraintBottom_toTopOf="@+id/playButton">
+
+        <TextView
+            android:id="@+id/highestScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/highest_score"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/arcadeclassic"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/highestScoreNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/arcadeclassic"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_play_button"
+        android:contentDescription="@string/play_button_description"
+        app:layout_constraintBottom_toTopOf="@id/settingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highestScoreGroup"
+        tools:ignore="RedundantDescriptionCheck"/>
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_setting_button"
+        android:contentDescription="@string/setting_button_description"
+        app:layout_constraintBottom_toTopOf="@+id/endButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playButton"
+        tools:ignore="RedundantDescriptionCheck"/>
+
+    <ImageButton
+        android:id="@+id/endButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_end_button"
+        android:contentDescription="@string/end_button_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingButton"
+        tools:ignore="RedundantDescriptionCheck"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

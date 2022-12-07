@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/gameOverTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text_gameover"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:fontFamily="@font/arcadeclassic"
+        android:padding="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10sp">
+        <TextView
+            android:id="@+id/scoreTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_text_score"
+            android:textSize="15sp"
+            android:fontFamily="@font/arcadeclassic"
+            android:padding="10sp"/>
+
+        <TextView
+            android:id="@+id/scoreNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="@font/arcadeclassic"
+            android:padding="10sp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10sp">
+
+        <ImageButton
+            android:id="@+id/retryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_retry_button"
+            android:contentDescription="@string/a_retry_button_description"
+            tools:ignore="RedundantDescriptionCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10sp">
+
+        <ImageButton
+            android:id="@+id/backingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_backing_button"
+            android:contentDescription="@string/a_backing_button_description"
+            tools:ignore="RedundantDescriptionCheck" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

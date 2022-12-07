@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CompProject</string>
+    <string name="title_sapce_invader">SPACE INVADER</string>
+    <string name="highest_score">Highest Score: </string>
+    <string name="play_button_description">A play button</string>
+    <string name="setting_button_description">A setting button</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_text_settings">Settings</string>
+    <string name="sfx_seek_bar">SFX: </string>
+    <string name="backgroubd_seek_bar">Background: </string>
+    <string name="a_backing_button_description">A return button</string>
+    <string name="title_text_gameover">Game Over!</string>
+    <string name="title_text_score">Score:</string>
+    <string name="a_retry_button_description">A retry button</string>
+    <string name="end_button_description">A end button to close the game</string>
+</resources>
